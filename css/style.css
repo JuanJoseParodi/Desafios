@@ -1,0 +1,24 @@
+header {
+  background-color: #312f2a; }
+  header .container, header .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    header .container .logo, header .navbar .logo {
+      margin: 0;
+      padding: 25px 30px;
+      font-weight: bold;
+      color: #ceb089;
+      font-size: 1.6em; }
+    header .container nav, header .navbar nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 25px; }
+      header .container nav a, header .navbar nav a {
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ceb089; }
+        header .container nav a a:hover, header .navbar nav a a:hover {
+          color: #928069; }

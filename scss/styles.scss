@@ -1,0 +1,31 @@
+header {
+    background-color: rgb(49, 47, 42);
+ .container, .navbar {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     .logo {
+         margin: 0;
+         padding: 25px 30px;
+         font-weight: bold;
+         color: rgb(206, 176, 137);
+         font-size: 1.6em;
+     }
+     nav {
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         padding-bottom: 25px;
+         a {
+             padding: 5px 12px;
+             text-decoration: none;
+             font-weight: bold;
+             color: rgb(206, 176, 137);
+         a:hover {
+             color: rgb(146, 128, 105);
+         }    
+         }
+     }
+ }
+
+}
